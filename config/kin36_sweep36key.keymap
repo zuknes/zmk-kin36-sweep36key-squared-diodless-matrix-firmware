@@ -106,9 +106,9 @@
 
         mse {
             bindings = <
-  &trans    &trans    &trans     &trans     &trans    &trans     &trans     &trans     &trans    &trans
-  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans     &kp RSHFT  &kp RCTRL  &kp RALT  &kp LGUI
-  &trans    &trans    &trans     &trans     &trans    &trans     &trans     &trans     &trans    &trans
+  &trans    &trans    &trans     &trans     &trans    &trans     &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans     &kp RSHFT  &kp RCTRL  &kp RALT          &kp LGUI
+  &trans    &trans    &trans     &trans     &trans    &trans     &trans     &trans     &trans            &kp SEMI
                       &trans     &trans     &trans    &mkp RCLK  &mkp LCLK  &mkp MB3
             >;
         };
