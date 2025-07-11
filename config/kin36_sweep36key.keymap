@@ -79,10 +79,10 @@
         base {
             display-name = "DEFAULT";
             bindings = <
-  &kp Q               &kp W           &kp E         &kp R             &kp T        &kp Y        &kp U            &kp I                &ht LEFT_BRACKET O  &ht RIGHT_BRACKET P
-  &ht A LEFT_COMMAND  &ht S LEFT_ALT  &ht D RCTRL   &ht F LEFT_SHIFT  &kp G        &kp H        &ht J RSHFT      &ht K RIGHT_CONTROL  &ht L RIGHT_ALT     &ht SINGLE_QUOTE RIGHT_COMMAND
-  &kp Z               &kp X           &kp C         &kp V             &kp B        &kp N        &kp M            &kp COMMA            &kp DOT             &ht SEMICOLON SLASH
-                                      &lt 1 ESCAPE  &lt 2 SPACE       &lt 3 TAB    &lt 5 ENTER  &lt 4 BACKSPACE  &lt 6 DEL
+  &kp Q               &kp W           &kp E         &kp R             &kp T        &kp Y        &kp U              &kp I        &ht LEFT_BRACKET O  &ht RIGHT_BRACKET P
+  &ht LEFT_COMMAND A  &ht LEFT_ALT S  &ht RCTRL D   &ht LEFT_SHIFT F  &kp G        &kp H        &ht RIGHT_SHIFT J  &ht RCTRL K  &ht RIGHT_ALT L     &ht RIGHT_COMMAND SINGLE_QUOTE
+  &kp Z               &kp X           &kp C         &kp V             &kp B        &kp N        &kp M              &kp COMMA    &kp DOT             &ht SEMICOLON SLASH
+                                      &lt 1 ESCAPE  &lt 2 SPACE       &lt 3 TAB    &lt 5 ENTER  &lt 4 BACKSPACE    &lt 6 DEL
             >;
         };
 
