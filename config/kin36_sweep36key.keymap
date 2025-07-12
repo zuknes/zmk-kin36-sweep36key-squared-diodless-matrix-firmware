@@ -77,8 +77,7 @@
         switch_lang: switch_lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT>, <&macro_press>;
-
+            bindings = <&kp LEFT_ALT &kp LEFT_SHIFT>;
             label = "SWITCH_LANG";
         };
     };
@@ -108,19 +107,19 @@
 
         med {
             bindings = <
-  &trans    &trans    &trans     &trans     &trans    &trans          &kp C_BRI_DN       &kp C_BRI_UP     &trans      &trans
-  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &trans
-  &trans    &trans    &trans     &trans     &trans    &trans          &trans             &trans           &trans      &trans
-                      &trans     &trans     &trans    &kp K_STOP      &kp C_PP           &kp K_MUTE
+  &trans    &trans    &trans     &trans     &trans    &trans      &trans          &kp C_BRI_DEC      &kp C_BRI_UP  &trans
+  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans      &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp C_NEXT
+  &trans    &trans    &trans     &trans     &trans    &trans      &trans          &trans             &trans        &trans
+                      &trans     &trans     &trans    &kp K_STOP  &kp C_PP        &kp K_MUTE
             >;
         };
 
         nav {
             bindings = <
-  &trans    &trans    &trans     &trans     &trans    &kp LC(LEFT)  &kp LC(DOWN)   &kp LC(UP)   &kp LC(RIGHT)  &trans
-  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT      &kp CLCK
-  &trans    &trans    &trans     &trans     &trans    &kp INS       &kp PAGE_DOWN  &kp PAGE_UP  &kp HOME       &kp END
-                      &trans     &trans     &trans    &kp ENTER     &kp BSPC       &kp DEL
+  &trans    &trans    &trans     &trans     &trans    &trans     &kp LC(LEFT)  &kp LC(DOWN)   &kp LC(UP)  &kp LC(RIGHT)
+  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &kp CAPS   &kp LEFT      &kp DOWN       &kp UP      &kp RIGHT
+  &trans    &trans    &trans     &trans     &trans    &kp INS    &kp HOME      &kp PAGE_DOWN  &kp PG_UP   &kp END
+                      &trans     &trans     &trans    &kp ENTER  &kp BSPC      &kp DEL
             >;
         };
 
