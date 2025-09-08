@@ -90,10 +90,10 @@
         base_colemak {
             display-name = "DEFAULT";
             bindings = <
-  &kp Q               &kp W           &kp F         &kp P             &kp B        &kp J        &kp L              &kp U        &kp Y            &kp SQT
-  &ht LEFT_COMMAND A  &ht LEFT_ALT R  &ht RCTRL S   &ht LEFT_SHIFT T  &kp G        &kp M        &ht RIGHT_SHIFT N  &ht RCTRL E  &ht RIGHT_ALT I  &ht RIGHT_COMMAND O
-  &kp Z               &kp X           &kp C         &kp D             &kp V        &kp K        &kp H              &kp COMMA    &kp DOT          &ht SEMICOLON SLASH
-                                      &lt 2 ESCAPE  &lt 3 SPACE       &lt 4 TAB    &lt 6 ENTER  &lt 5 BACKSPACE    &lt 7 DEL
+  &kp Q               &kp W           &kp F               &kp P             &kp B        &kp J        &kp L             &kp U               &kp Y           &kp SQT
+  &ht LEFT_COMMAND A  &ht LEFT_ALT R  &ht LEFT_CONTROL S  &ht LEFT_SHIFT T  &kp G        &kp M        &ht LEFT_SHIFT N  &ht LEFT_CONTROL E  &ht LEFT_ALT I  &ht LEFT_COMMAND O
+  &kp Z               &kp X           &kp C               &kp D             &kp V        &kp K        &kp H             &kp COMMA           &kp DOT         &ht SEMICOLON SLASH
+                                      &lt 2 ESCAPE        &lt 3 SPACE       &lt 4 TAB    &lt 6 ENTER  &lt 5 BACKSPACE   &lt 7 DEL
             >;
         };
 
