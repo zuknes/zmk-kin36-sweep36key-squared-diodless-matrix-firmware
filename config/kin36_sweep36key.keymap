@@ -78,14 +78,14 @@
         lang_ru: lang_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 1 &kp LS(LG(NUMBER_1))>;
+            bindings = <&sl 1 &kp LS(LG(NUMBER_1))>;
             label = "LANG_RU";
         };
 
         lang_en: lang_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&tog 0 &kp LS(LG(NUMBER_2))>;
+            bindings = <&sl 0 &kp LS(LG(NUMBER_2))>;
             label = "LANG_EN";
         };
     };
