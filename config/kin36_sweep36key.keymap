@@ -75,12 +75,18 @@
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
     macros {
-        switch_lang: switch_lang {
+        lang_ru: lang_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LEFT_SHIFT &kp LEFT_ALT>;
+            bindings = <&tog 1 &kp LS(LG(NUMBER_1))>;
+            label = "LANG_RU";
+        };
 
-            label = "SWITCH_LANG";
+        lang_en: lang_en {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog 0 &kp LS(LG(NUMBER_2))>;
+            label = "LANG_EN";
         };
     };
 
@@ -127,10 +133,10 @@
 
         mse {
             bindings = <
-  &tog 1        &trans    &trans     &trans     &trans    &trans     &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-  &kp LGUI      &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans     &kp RSHFT  &kp RCTRL  &kp RALT          &kp LGUI
-  &switch_lang  &trans    &trans     &trans     &trans    &trans     &trans     &trans     &trans            &kp SEMI
-                          &trans     &trans     &trans    &mkp RCLK  &mkp LCLK  &mkp MB3
+  &lang_ru  &lang_en  &trans     &trans     &trans    &trans     &trans     &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans     &kp RSHFT  &kp RCTRL  &kp RALT          &kp LGUI
+  &trans    &trans    &trans     &trans     &trans    &trans     &trans     &trans     &trans            &kp SEMI
+                      &trans     &trans     &trans    &mkp RCLK  &mkp LCLK  &mkp MB3
             >;
         };
 
