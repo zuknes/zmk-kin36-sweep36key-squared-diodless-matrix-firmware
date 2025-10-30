@@ -133,7 +133,7 @@
 
         mse {
             bindings = <
-  &lang_ru  &lang_en  &trans     &trans     &trans    &trans     &trans          &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &trans    &lang_en  &lang_ru   &trans     &trans    &trans     &trans          &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET
   &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LS(LEFT_ALT)  &kp LGUI
   &trans    &trans    &trans     &trans     &trans    &trans     &trans          &trans            &trans            &kp SEMI
                       &trans     &trans     &trans    &mkp RCLK  &mkp LCLK       &mkp MB3
@@ -142,19 +142,19 @@
 
         num {
             bindings = <
-  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans          &trans     &kp LEFT_CONTROL  &trans
-  &kp SEMI   &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp LEFT_SHIFT  &kp RCTRL  &kp LEFT_ALT      &kp LGUI
-  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &trans  &trans          &trans     &trans            &trans
-                     &kp DOT  &kp N0  &kp MINUS    &trans  &trans          &trans
+  &kp LBKT             &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans          &trans     &kp LEFT_CONTROL  &trans
+  &ht COLON SEMICOLON  &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp LEFT_SHIFT  &kp RCTRL  &kp LEFT_ALT      &kp LGUI
+  &kp GRAVE            &kp N1  &kp N2   &kp N3  &kp BSLH     &trans  &trans          &trans     &trans            &trans
+                               &kp DOT  &kp N0  &kp MINUS    &trans  &trans          &trans
             >;
         };
 
         sym {
             bindings = <
-  &kp LEFT_BRACE  &kp AMPS         &kp STAR              &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans          &trans            &trans        &trans
-  &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI
-  &ht TILDE SEMI  &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &trans  &trans          &trans            &trans        &trans
-                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &trans  &trans          &trans
+  &kp LEFT_BRACE       &kp AMPS         &kp STAR              &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans          &trans            &trans        &trans
+  &ht COLON SEMICOLON  &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI
+  &kp TILDE            &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &trans  &trans          &trans            &trans        &trans
+                                        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &trans  &trans          &trans
             >;
         };
 
