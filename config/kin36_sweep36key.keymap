@@ -88,6 +88,13 @@
             bindings = <&to 0 &kp LG(LA(NUMBER_2))>;
             label = "LANG_EN";
         };
+
+        right_arrow: right_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GREATER_THAN>;
+            label = "RIGHT_ARROW";
+        };
     };
 
     combos {
@@ -103,6 +110,12 @@
             bindings = <&kp SEMI>;
             key-positions = <17 18>;
             layers = <1>;
+        };
+
+        arrow {
+            bindings = <&right_arrow>;
+            key-positions = <10 11>;
+            layers = <6>;
         };
     };
 
