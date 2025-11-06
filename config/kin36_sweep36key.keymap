@@ -162,10 +162,10 @@
 
         mse {
             bindings = <
-  &trans    &lang_en  &lang_ru   &trans     &trans    &trans     &trans          &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LS(LEFT_ALT)  &kp LGUI
-  &trans    &trans    &trans     &trans     &trans    &trans     &trans          &trans            &trans            &kp SEMI
-                      &trans     &trans     &trans    &mkp LCLK  &mkp RCLK       &mkp MB3
+  &trans    &lang_en  &lang_ru   &trans     &trans    &kp LG(KP_NUMLOCK)  &kp SCROLLLOCK  &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans              &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LS(LEFT_ALT)  &kp LGUI
+  &trans    &trans    &trans     &trans     &trans    &trans              &trans          &trans            &trans            &kp SEMI
+                      &trans     &trans     &trans    &mkp LCLK           &mkp RCLK       &mkp MB3
             >;
         };
 
