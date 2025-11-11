@@ -117,6 +117,18 @@
             key-positions = <10 11>;
             layers = <6>;
         };
+
+        semi {
+            bindings = <&kp LS(SEMICOLON)>;
+            key-positions = <27 28>;
+            layers = <0>;
+        };
+
+        caps {
+            bindings = <&caps_word>;
+            key-positions = <6 7>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
