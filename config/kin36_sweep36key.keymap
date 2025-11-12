@@ -129,6 +129,18 @@
             key-positions = <6 7>;
             layers = <0 1>;
         };
+
+        langen {
+            bindings = <&lang_en>;
+            key-positions = <1 2>;
+            layers = <0 1>;
+        };
+
+        langru {
+            bindings = <&lang_ru>;
+            key-positions = <2 3>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
