@@ -191,7 +191,7 @@
         nav {
             bindings = <
   &trans        &lang_en      &lang_ru   &trans     &trans        &trans     &kp H     &kp J          &kp K      &kp L
-  &kp LGUI      &kp LALT      &kp LCTRL  &kp LSHFT  &trans        &kp CAPS   &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT
+  &sk LGUI      &sk LALT      &sk LCTRL  &sk LSHFT  &trans        &kp CAPS   &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT
   &bt BT_SEL 0  &bt BT_SEL 1  &trans     &trans     &bt BT_CLR    &kp INS    &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END
                               &trans     &trans     &trans        &kp ENTER  &kp BSPC  &kp DEL
             >;
@@ -200,7 +200,7 @@
         mse {
             bindings = <
   &trans    &lang_en  &lang_ru   &trans     &trans    &kp LG(KP_NUMLOCK)  &kp LOCKING_SCROLL  &trans            &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-  &sk LGUI  &sk LALT  &sk LCTRL  &sk LSHFT  &trans    &trans              &kp LEFT_SHIFT      &kp LEFT_CONTROL  &kp LS(LEFT_ALT)  &kp LGUI
+  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans    &trans              &kp LEFT_SHIFT      &kp LEFT_CONTROL  &kp LEFT_ALT      &kp LGUI
   &trans    &trans    &trans     &trans     &trans    &trans              &trans              &trans            &trans            &kp SEMI
                       &trans     &trans     &trans    &mkp LCLK           &mkp RCLK           &mkp MB3
             >;
@@ -209,7 +209,7 @@
         num {
             bindings = <
   &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT     &trans  &trans          &trans     &kp LEFT_CONTROL  &trans
-  &kp COLON  &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &kp LEFT_SHIFT  &kp RCTRL  &kp LEFT_ALT      &kp LGUI
+  &kp COLON  &kp N4  &kp N5   &kp N6  &kp EQUAL    &trans  &sk LEFT_SHIFT  &sk RCTRL  &sk LEFT_ALT      &sk LGUI
   &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH     &trans  &trans          &trans     &trans            &trans
                      &kp DOT  &kp N0  &kp MINUS    &trans  &trans          &trans
             >;
@@ -218,7 +218,7 @@
         sym {
             bindings = <
   &kp LEFT_BRACE  &kp AMPS         &kp STAR              &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans          &trans            &trans        &trans
-  &kp SEMI        &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LGUI
+  &kp SEMI        &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI
   &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &trans  &trans          &trans            &trans        &trans
                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER          &trans  &trans          &trans
             >;
