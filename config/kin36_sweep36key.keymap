@@ -95,6 +95,13 @@
             bindings = <&kp MINUS &kp GREATER_THAN>;
             label = "RIGHT_ARROW";
         };
+
+        array_arrow: array_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp GREATER_THAN>;
+            label = "ARRAY_ARROW";
+        };
     };
 
     combos {
@@ -140,6 +147,12 @@
             bindings = <&lang_ru>;
             key-positions = <2 3>;
             layers = <0 1>;
+        };
+
+        array_arrow {
+            bindings = <&array_arrow>;
+            key-positions = <11 12>;
+            layers = <6>;
         };
     };
 
