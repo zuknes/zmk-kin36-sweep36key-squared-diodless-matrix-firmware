@@ -110,13 +110,13 @@
         letterH {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <7 8>;
-            layers = <2>;
+            layers = <0>;
         };
 
         letterZhe {
             bindings = <&kp SEMI>;
             key-positions = <17 18>;
-            layers = <2>;
+            layers = <0>;
         };
 
         arrow {
@@ -134,19 +134,19 @@
         caps {
             bindings = <&caps_word>;
             key-positions = <6 7>;
-            layers = <0 2>;
+            layers = <0>;
         };
 
         langen {
             bindings = <&lang_en>;
             key-positions = <1 2>;
-            layers = <0 2>;
+            layers = <0>;
         };
 
         langru {
             bindings = <&lang_ru>;
             key-positions = <2 3>;
-            layers = <0 2>;
+            layers = <0>;
         };
 
         array_arrow {
