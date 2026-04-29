@@ -162,9 +162,9 @@
         base_qwerty {
             display-name = "qwerty";
             bindings = <
-  &kp Q               &kp W           &kp E         &kp R             &kp T        &kp Y        &kp U             &kp I               &kp O               &kp P
-  &ht LEFT_COMMAND A  &ht LEFT_ALT S  &ht RCTRL D   &ht LEFT_SHIFT F  &kp G        &kp H        &ht LEFT_SHIFT J  &ht LEFT_CONTROL K  &ht LS(LEFT_ALT) L  &ht LEFT_COMMAND SINGLE_QUOTE
-  &kp Z               &kp X           &kp C         &kp V             &kp B        &kp N        &kp M             &kp COMMA           &kp DOT             &kp SLASH
+  &kp Q               &kp W           &kp E         &kp R             &kp T        &kp Y        &kp U             &kp I               &kp O           &kp P
+  &ht LEFT_COMMAND A  &ht LEFT_ALT S  &ht RCTRL D   &ht LEFT_SHIFT F  &kp G        &kp H        &ht LEFT_SHIFT J  &ht LEFT_CONTROL K  &ht LEFT_ALT L  &ht LEFT_COMMAND SINGLE_QUOTE
+  &kp Z               &kp X           &kp C         &kp V             &kp B        &kp N        &kp M             &kp COMMA           &kp DOT         &kp SLASH
                                       &lt 2 ESCAPE  &lt 3 SPACE       &lt 4 TAB    &lt 6 ENTER  &lt 5 BACKSPACE   &lt 7 DEL
             >;
         };
