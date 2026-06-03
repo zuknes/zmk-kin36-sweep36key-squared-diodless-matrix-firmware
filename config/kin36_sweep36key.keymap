@@ -111,48 +111,56 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <7 8>;
             layers = <0>;
+            timeout-ms = <70>;
         };
 
         letterZhe {
             bindings = <&kp SEMI>;
             key-positions = <17 18>;
             layers = <0>;
+            timeout-ms = <70>;
         };
 
         arrow {
             bindings = <&right_arrow>;
             key-positions = <10 11>;
             layers = <6>;
+            timeout-ms = <70>;
         };
 
         semi {
-            bindings = <&kp LS(SEMICOLON)>;
+            bindings = <&kp COLON>;
             key-positions = <27 28>;
             layers = <0>;
+            timeout-ms = <70>;
         };
 
         caps {
             bindings = <&caps_word>;
             key-positions = <6 7>;
             layers = <0>;
+            timeout-ms = <70>;
         };
 
         langen {
             bindings = <&lang_en>;
             key-positions = <1 2>;
             layers = <0>;
+            timeout-ms = <70>;
         };
 
         langru {
             bindings = <&lang_ru>;
             key-positions = <2 3>;
             layers = <0>;
+            timeout-ms = <70>;
         };
 
         array_arrow {
             bindings = <&array_arrow>;
             key-positions = <11 12>;
             layers = <6>;
+            timeout-ms = <70>;
         };
     };
 
